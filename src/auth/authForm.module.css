@@ -1,0 +1,64 @@
+/* body {
+    background-color: #fff;
+} */
+
+.form {
+    position: absolute;
+    width: 20rem;
+    top: 15rem;
+    right: 50%;
+    transform: translate(50%, -5%);
+    padding: 1.5rem .8rem;
+    border-radius: .5rem;
+    background-color: rgb(113, 5, 5);
+    color: #fff;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.control {
+    margin-bottom: 1rem;
+}
+
+.control label{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.control input {
+    font: inherit;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.togle {
+    display: flex;
+    flex-direction: column;
+}
+
+.togle button {
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: .5rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.submit {
+    background-color: rgba(193, 33, 33, 0.605) !important; 
+    padding: .4rem .8rem;
+    border-radius: .4rem;
+}
